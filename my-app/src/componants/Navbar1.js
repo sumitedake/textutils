@@ -28,7 +28,7 @@ export default function Navbar1(props) {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            About
           </a>
         </li>
         <li className="nav-item dropdown">
@@ -39,34 +39,10 @@ export default function Navbar1(props) {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Dropdown
-          </a>
-          <ul className="dropdown-menu">
-            <li>
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <hr className="dropdown-divider" />
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">
-            Disabled
+            Textform1
           </a>
         </li>
+        
       </ul>
       {/* <form className="d-flex" role="search">
         <input
